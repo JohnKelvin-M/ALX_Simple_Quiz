@@ -1,3 +1,6 @@
+const submitButton = document.querySelector("#submit-answer");
+const feedbackElement = document.querySelector("#feedback");
+
 function checkAnswer() {
   const correctAnswer = "4";
   const userAnswer = document.querySelector(
